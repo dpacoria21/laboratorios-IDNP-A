@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:text=""
         android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
