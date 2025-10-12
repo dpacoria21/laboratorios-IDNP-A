@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Texto de la edificación, centrado arriba -->
+    <TextView
+        android:id="@+id/marker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Edificación"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:padding="2dp"/>
+
+    <!-- Ícono del marcador, centrado debajo del texto -->
+    <ImageView
+        android:id="@+id/marker_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/marker_title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_marker_red" />
+
+</RelativeLayout>
