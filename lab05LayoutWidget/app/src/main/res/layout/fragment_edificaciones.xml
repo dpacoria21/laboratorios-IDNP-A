@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp">
+
+
+        <LinearLayout
+            android:id="@+id/catedralLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_background"
+            android:paddingStart="90dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="32dp" />
+
+
+        <ImageView
+            android:id="@+id/catedralImage"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/rounded_shape"
+            android:scaleType="centerCrop"
+            android:src="@drawable/catedral_image_v2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catedral de Arequipa"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="90dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/claustroLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/rounded_background"
+            android:paddingStart="90dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="32dp" />
+
+
+        <ImageView
+            android:id="@+id/claustroImage"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/rounded_shape"
+            android:scaleType="centerCrop"
+            android:src="@drawable/claustro_image_v2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claustro de la Compañía"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="90dp" />
+    </FrameLayout>
+
+</LinearLayout>

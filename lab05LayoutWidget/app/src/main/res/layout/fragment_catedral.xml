@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_shape"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/catedralImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_shape"
+        android:scaleType="centerCrop"
+        android:src="@drawable/catedral_image_v2"
+        app:srcCompat="@drawable/catedral_image_v2" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/sectionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catedral de Arequipa"
+            android:textColor="#FFC107"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/catedralText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fue construida con ignimbrita (piedra de origen volcánico), y bóvedas de ladrillo; es el santuario principal de la ciudad ocupando todo el lado norte de la Plaza de Armas. Construida totalmente en sillar, exhibe un estilo neorrenacentista con cierta influencia gótica."
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
