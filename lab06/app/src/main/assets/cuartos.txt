@@ -1,0 +1,24 @@
+Cuarto: 1
+Título: El Umbral del Valle Encantado
+Descripción: Entrada principal de la mansión, construida con piedra volcánica y techos abovedados. Su antiguo portón de madera da la bienvenida a los visitantes, conservando inscripciones grabadas por los primeros viajeros del valle.
+URL de la imagen: entrada_valle
+
+Cuarto: 2
+Título: La Sala del Fundador Olvidado
+Descripción: Espacio dedicado al misterioso don Alonso de Torres. Se exhiben mapas, cartas y objetos de navegación que relatan sus viajes y leyendas sobre la búsqueda de una ruta estelar perdida.
+URL de la imagen: fundador_olvidado
+
+Cuarto: 3
+Título: El Jardín Perdido
+Descripción: Patio interior con una fuente rodeada de helechos petrificados. Su ambiente de luz verde y sonido de agua recrea el misticismo que rodeaba la antigua leyenda del manantial curativo.
+URL de la imagen: jardin_perdido
+
+Cuarto: 4
+Título: Ecos de la Vida Doméstica
+Descripción: Sala ambientada con utensilios, mobiliario y vestimentas del siglo XVII. Invita a imaginar la vida cotidiana de los antiguos habitantes de la mansión.
+URL de la imagen: vida_domestica
+
+Cuarto: 5
+Título: La Galería de los Rostros Silentes
+Descripción: Exhibición de retratos coloniales de una escuela pictórica desconocida. Los cuadros, de mirada enigmática, simbolizan las emociones humanas y la espiritualidad del arte antiguo.
+URL de la imagen: rostros_silentes
